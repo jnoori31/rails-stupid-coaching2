@@ -7,6 +7,8 @@ class QuestionsController < ApplicationController
   end
 
   def ask
+    # raise
+    # params
   end
 
   def answer
@@ -21,5 +23,10 @@ class QuestionsController < ApplicationController
       else
         @answer = "I dont care, get dressed and go to work!"
     end
+    # raise
+    # params
   end
 end
+
+
+# 1:000 source video use raise and parmas in console
